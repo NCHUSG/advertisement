@@ -1,6 +1,7 @@
-#Usage
+##Usage
 
-	1.Put `fancybox` directory into your repository.
+	1. Put `fancybox` directory into your repository.
+
 	2.These are required links:
 	```
 	<!-- Add jQuery library -->
@@ -24,6 +25,7 @@
 	<!-- Add Media helper (this is optional) -->
 	<script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 	```
+
 	3.Further reading:[fancybox](http://fancybox.net/)
 
 	4.Template:
@@ -33,17 +35,20 @@
 		  box-shadow: 0 0 50px #222;
 		}
 		```
+
 		*html:put these tag wherever you want, cause they will be hiddened.
 		```
 		<div style="display:none">      
 		  <a class="fancybox" href="./images/nchuit.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="./images/nchuit.png" alt="" /></a>
 		</div>          
 		```
+
 		*js:
 		```
 		$('.fancybox').fancybox();
       $(".fancybox").click();
 		```
+
 	5.If documents and my tutorial are all difficult to read, please check `fancybox/demo/index.html`. You will find how to do.
 
 # Use Google sheet as your JSON backend
