@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fancyBox - iframe demo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<style type="text/css">
+		img {
+		    width: 100%;
+		    height: auto;
+		}
+	</style>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	    $( document ).ready(function() {      
+	      $.getJSON("https://spreadsheets.google.com/feeds/list/12Kg_gazD75Tq9ItucMXzxvttCWiRlLsGr_iulD3P5U0/1/public/values?alt=json",function(json){      		      	
+	      		$('img').attr('src',json['feed']['entry']['0']['gsx$picture']['$t']);
+	      		$('a').attr('href',json['feed']['entry']['0']['gsx$hyper']['$t']);
+	      		
+
+	      })  	   
+	    });	             
+	</script>
+</head>
+<body>		
+	<div>	
+		<a href="https://www.facebook.com/CoursePickingHelper/" target="_blank"><img src="https://www.dropbox.com/s/jmanvs6hfz754k1/382098_566877043338850_1529550463_n.jpg?dl=1" alt="" /></a>			
+		
+	</div>	
+</body>
+
+</html>
