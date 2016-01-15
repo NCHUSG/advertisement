@@ -4,7 +4,7 @@
 
 * required:
 
-```
+```html
 <!-- Add jQuery library -->
 <script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
 
@@ -15,7 +15,7 @@
 
 * optional:
 
-```
+```html
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="../lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -35,7 +35,8 @@
 
 3.My personal settings: These link were deployed on the server of NCHUSG and made by my self. It might not be stable and well enough, so if you want, just make these script by your self. And any pull request is welcome!!
 * script and link:
-```
+
+```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ad.nchusg.org/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
 <link rel="stylesheet" type="text/css" href="http://ad.nchusg.org/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
@@ -43,7 +44,7 @@
 
 * css:
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="http://ad.nchusg.org/ad.css" />  
 ```
 
@@ -57,7 +58,7 @@
 
 * js:
 
-```
+```html
 <script src="http://ad.nchusg.org/ad.js"></script>
 ```
 
