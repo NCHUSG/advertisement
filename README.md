@@ -1,19 +1,21 @@
 ##Usage##
 
-1. Put `fancybox` directory into your repository.
+1. These are required and optional links: And you need to put `fancybox` directory into your repository.
 
-2. These are required links:
-
-```html
+*required:
+```
 <!-- Add jQuery library -->
 <script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
-
-<!-- Add mousewheel plugin (this is optional) -->
-<script type="text/javascript" src="../lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
 <link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+```
+
+*optional:
+```
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="../lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
 <!-- Add Button helper (this is optional) -->
 <link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
@@ -27,30 +29,34 @@
 <script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 ```
 
-3.Further reading:[fancybox](http://fancybox.net/)
+2.Further reading:[fancybox](http://fancybox.net/)
 
-4.Template:
+3.My personal settings: These link were deployed on the server of NCHUSG and made by my self. It might not be stable and well enough, so if you want, just make these script by your self. And any pull request is welcome!!
+* script and link:
+'''
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ad.nchusg.org/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="http://ad.nchusg.org/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+'''
+
 * css:
 
-```css
-.fancybox-custom .fancybox-skin {
-  box-shadow: 0 0 50px #222;
-}
+```
+<link rel="stylesheet" type="text/css" href="http://ad.nchusg.org/ad.css" />  
 ```
 
 * html: put these tag wherever you want, cause they will be hiddened.
 
 ```html
 <div style="display:none">      
-  <a class="fancybox" href="./images/nchuit.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="./images/nchuit.png" alt="" /></a>
+  <a id="fancybox-manual-b" href="javascript:;">advertisement</a>
 </div>          
 ```
 
 * js:
 
-```javascript
-$('.fancybox').fancybox();
-$(".fancybox").click();
+```
+<script src="http://ad.nchusg.org/ad.js"></script>
 ```
 
 5.If documents and my tutorial are all difficult to read, please check `fancybox/demo/index.html`. You will find how to do.
