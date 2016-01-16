@@ -7,7 +7,7 @@
 
 因為現在學生會有兩台server（我是21屆）  
 我是把整個`advertisement`的`repo`都放在`debian81`這台上面  
-然後`script`和`link`所讀取的路徑都是ad.nchusg.org/檔名 [try it](ad.nchusg.org)  
+然後`script`和`link`所讀取的路徑都是ad.nchusg.org/檔名 [try it](http://ad.nchusg.org)  
 因為我幫`advertisement`綁了cname  
 所以他可以用網址去抓`debian81`上面`advertisement`的資源  
 
