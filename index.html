@@ -15,7 +15,7 @@
 	    $( document ).ready(function() {      
 	      $.getJSON("https://spreadsheets.google.com/feeds/list/12Kg_gazD75Tq9ItucMXzxvttCWiRlLsGr_iulD3P5U0/1/public/values?alt=json",function(json){      		      	
 	      		$('img').attr('src',json['feed']['entry']['0']['gsx$picture']['$t']);
-	      		$('a').attr('href',json['feed']['entry']['0']['gsx$hyper']['$t']).done();
+	      		$('a').attr('href',json['feed']['entry']['0']['gsx$hyper']['$t']);
 	      		
 
 	      }).done()  	   
